@@ -29,6 +29,15 @@
   border-radius: 8px;
   padding: auto;
   font-size: 10px;
+  background-color: transparent;
+  border: 1px solid #2196f3;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnStyle:active {
+  box-shadow: 0 0 0 4px rgba(33, 150, 243, 0.3);
+  transform: scale(0.98);
 }
 .count {
   display: flex;
